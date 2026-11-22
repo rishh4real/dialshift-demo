@@ -23,3 +23,5 @@ Audio playback is designed for a local terminal because Dialshift uses the machi
 ## Deployment
 
 GitHub Actions publishes `dist/` to GitHub Pages after the package verification and build succeed.
+
+Live demo: <https://rishh4real.github.io/dialshift-demo/>

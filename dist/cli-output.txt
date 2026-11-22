@@ -1,0 +1,19 @@
+Dialshift — internet radio for the terminal
+
+Usage:
+  dialshift                         Open the interactive radio tuner
+  dialshift search <name-or-genre>  Find stations in the public directory
+  dialshift play <preset|station>   Start a preset or saved station in the background
+  dialshift pause | resume | next | stop | status
+
+Library:
+  dialshift favorite <station>      Toggle a favorite
+  dialshift add <name> <url> [genre]
+  dialshift edit <id> <name> <url> [genre]
+  dialshift remove <id>
+  dialshift preset create <name> [station...]
+  dialshift preset rename <old> <new>
+  dialshift preset delete <name>
+  dialshift preset reorder <name> <station-id...>
+
+

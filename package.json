@@ -1,0 +1,15 @@
+{
+  "name": "dialshift-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A runnable and deployed demonstration of the Dialshift npm CLI package.",
+  "type": "module",
+  "scripts": {
+    "demo:cli": "dialshift --help",
+    "verify": "npm run demo:cli",
+    "build": "node scripts/build-demo.mjs"
+  },
+  "dependencies": {
+    "dialshift": "github:rishh4real/cli-internet-radio#main"
+  }
+}
